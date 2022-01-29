@@ -3,7 +3,8 @@ import * as React from "react";
 import { Routes, Route, } from "react-router-dom";
 import Home from '../views/Home';
 import User from '../views/User'
-import SongList from '../views/SongList';
+import SelectedDisk from '../views/SelectedDisk';
+import HighQualitySonglist from '../views/HighQualitySonglist'
 import Singer from '../views/Singer'
 const AppMain = () => {
     return (
@@ -11,7 +12,8 @@ const AppMain = () => {
             <Routes>
                 <Route path="/home" element={<Home />} />
                 <Route path="/user" element={<User />} />
-                <Route path="/songlist" element={<SongList />} />
+                <Route path="/selectedDisk" element={<SelectedDisk />} />
+                <Route path="/highQualitySonglist" element={<HighQualitySonglist />} />
                 <Route path="/singer" element={<Singer />} />
             </Routes>
         </div>

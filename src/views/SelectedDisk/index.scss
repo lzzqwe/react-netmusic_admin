@@ -1,0 +1,20 @@
+.song-list {
+    overflow: auto;
+    height: 100%;
+    .song-list-content {
+        .song-list_search {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            .song-list_search_label {
+                font-size: 16px;
+                margin-right: 10px;
+            }
+            .song-list_search_radiogroup {
+                .song-list_search_radio {
+                    margin-right: 15px;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}

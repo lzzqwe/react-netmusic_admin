@@ -20,15 +20,12 @@ const SlideMenu = () => {
                 <Menu.Item key="1">
                     <Link to="/home">首页</Link>
                 </Menu.Item>
-                <SubMenu key="sub1" icon={<MailOutlined />} title="用户管理">
+                <SubMenu key="sub1" icon={<MailOutlined />} title="歌单管理">
                     <Menu.Item key="2">
-                        <Link to="/user">用户</Link>
+                        <Link to="/selectedDisk">歌单 ( 网友精选碟 )</Link>
                     </Menu.Item>
                     <Menu.Item key="3">
-                        <Link to="/songlist">歌单</Link>
-                    </Menu.Item>
-                    <Menu.Item key="4">
-                        <Link to="/singer">歌手</Link>
+                        <Link to="/highQualitySonglist">精品歌单</Link>
                     </Menu.Item>
                 </SubMenu>
 

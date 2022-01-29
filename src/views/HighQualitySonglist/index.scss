@@ -1,0 +1,20 @@
+.highquality-songlist {
+    overflow: auto;
+    height: 100%;
+    .highquality-songlist-search_warp {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        .highquality-songlist-search_label {
+            font-size: 16px;
+        }
+        .highquality-songlist-radio_group {
+            .highquality-songlist-radio {
+                margin-right: 15px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .highquality-songlist-table_warp {
+        // margin: 15px;
+    }
+}
