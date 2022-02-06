@@ -17,3 +17,7 @@ export const highqualityTags = () => {
 export const highqualitySongslist = (params) => {
     return requestGET(`${BaseUrl}/top/playlist/highquality`, params)
 }
+// 获取banner图
+export const banner = (params) => {
+    return requestGET(`${BaseUrl}/banner`,params)
+}
