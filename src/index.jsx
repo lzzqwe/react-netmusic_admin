@@ -4,8 +4,6 @@ import './assets/scss/nomallize.scss'
 import App from './App';
 console.log(process.env.NODE_ENV);
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App />,
   document.getElementById('root')
 );
