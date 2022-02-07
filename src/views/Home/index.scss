@@ -1,4 +1,28 @@
 .home {
-    font-size: 50px;
-    color: thistle;
+  .home-slideBanner_wrapper {
+    .wrapper {
+      background-size: 26000px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+      width: 100%;
+      height: 285px;
+      .inner-box-carousel {
+        width: 982px;
+        height: 285px;
+        margin: 0 auto;
+      }
+    }
+  }
+  .home-recommend {
+    .home-recommend_hot {
+      .home-recommend_hot_title {
+        line-height: 45px;
+        border-bottom: 2px solid darkred;
+      }
+    }
+  }
+
 }
+
+
